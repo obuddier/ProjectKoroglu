@@ -4,6 +4,12 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+#
+[Aa]ssets/Editor Default Resources/
+[Aa]ssets/ExternalDependencyManager/
+[Aa]ssets/Firebase/
+[Aa]ssets/Plugins/
+#
 Assets/AssetStoreTools*
 # Visual Studio cache directory
 .vs/
@@ -35,3 +41,4 @@ sysinfo.txt
 Assets/StreamingAssets/crashlytics-build.properties
 *.log
 *.mp4
+
