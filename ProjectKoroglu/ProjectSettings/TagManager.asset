@@ -9,6 +9,12 @@ TagManager:
   - Enemy
   - Sword
   - EnemySword
+  - EndOfLevel
+  - FirstLevel
+  - SecondLevel
+  - ThirdLevel
+  - FourthLevel
+  - "Can \u0130ksiri"
   layers:
   - Default
   - TransparentFX
