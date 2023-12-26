@@ -12278,8 +12278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6093419799ed4c458192156f4372775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 10
+  moveSpeed: 8
+  jumpForce: 12
   dashForce: 5
   dashDuration: 1
   amDead: 0
