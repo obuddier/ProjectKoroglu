@@ -13,6 +13,10 @@ public class CharacterMovement : MonoBehaviour
     private bool isDashing = false; // Dash durumu kontrolü
     public bool amDead = false;
 
+    public ParticleSystem particleSystem;
+
+    public AudioSource audioPlayer;
+
     public TextMeshProUGUI DeathMessage;
 
     private Rigidbody2D rb;
@@ -212,6 +216,8 @@ public class CharacterMovement : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Can İksiri"))
         {
+            audioPlayer.Play();
+            Instantiate(particleSystem,transform.position, Quaternion.identity);
             TakeHealth(10);
             Destroy(other.gameObject);
         }

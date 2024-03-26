@@ -25,6 +25,18 @@ public class UIManager : MonoBehaviour
             instance = this;
             Time.timeScale = 1f;
             
+            Options_Panel.SetActive(true);
+            First_Menu_Buttons.SetActive(false);
+            Buttons.SetActive(false);
+            loginUI.SetActive(false);
+            registerUI.SetActive(false);
+            Sound_Panel.SetActive(true);
+            Levels_Panel.SetActive(false);
+            Level_Hardness_Panel.SetActive(false);
+            Score_Panel.SetActive(false);
+            
+
+
             Options_Panel.SetActive(false);
             Buttons.SetActive(true);
             loginUI.SetActive(false);
@@ -34,6 +46,7 @@ public class UIManager : MonoBehaviour
             Level_Hardness_Panel.SetActive(false);
             Score_Panel.SetActive(false);
             First_Menu_Buttons.SetActive(false);
+            // Optionsssssssss();
         }
         else if (instance != null)
         {
@@ -41,6 +54,31 @@ public class UIManager : MonoBehaviour
             Destroy(this);
         }
     }
+
+    // public void Optionsssssssss()
+    // {
+    //     Options_Panel.SetActive(true);
+    //     First_Menu_Buttons.SetActive(false);
+    //     Buttons.SetActive(false);
+    //     loginUI.SetActive(false);
+    //     registerUI.SetActive(false);
+    //     Sound_Panel.SetActive(true);
+    //     Levels_Panel.SetActive(false);
+    //     Level_Hardness_Panel.SetActive(false);
+    //     Score_Panel.SetActive(false);
+        
+
+
+    //     Options_Panel.SetActive(false);
+    //     Buttons.SetActive(true);
+    //     loginUI.SetActive(false);
+    //     registerUI.SetActive(false);
+    //     Sound_Panel.SetActive(false);
+    //     Levels_Panel.SetActive(false);
+    //     Level_Hardness_Panel.SetActive(false);
+    //     Score_Panel.SetActive(false);
+    //     First_Menu_Buttons.SetActive(false);
+    // }
 
     //Functions to change the login screen UI
     public void LoginScreen() //Back button

@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/MC Folder/Scenes/Level-1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/MC Folder/Scenes/Level-2.unity
-    guid: eb0c4ca1c7116cc4c889697917f8cda1
+    path: Assets/MC Folder/Scenes/Level-1 1.unity
+    guid: a51fa77026cb4704683d792695f42173
   - enabled: 1
-    path: Assets/MC Folder/Scenes/Level-3.unity
-    guid: 6f1c4562d21600242b4f02c520b1ac4f
+    path: Assets/MC Folder/Scenes/Level-1 2.unity
+    guid: 5e28855e077c80c4bb408584a7cc9155
   - enabled: 1
     path: Assets/MC Folder/Scenes/EndOfTheGame.unity
     guid: 2c4371e881e46da4db110b83135282fd

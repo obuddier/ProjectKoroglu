@@ -4,12 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText; // Skorun görüntülendiği UI elemanı
+    public TextMeshProUGUI scoreText; 
+    public TextMeshProUGUI First_Level_Score;
+    public TextMeshProUGUI Second_Level_Score;
+    public TextMeshProUGUI Third_Level_Score;
     // private int score = 0; // Oyuncunun skoru
     public LevelLockManager levelLockManager;
 
     public int[] levelScores; // Her seviye için ayrı skor tutulacak dizi
-    public int currentLevel = 0; // Bulunduğunuz seviye
+    public int currentLevel = 0; 
     
     // public GameObject GameOverPanel;
     // public GameObject Levels_Panel;
@@ -38,7 +41,18 @@ public class ScoreManager : MonoBehaviour
         if (currentLevel != 0)
         {
             UpdateScoreText();
-            // Debug.Log("Bulunduğunuz seviye: " + currentLevel);
+            // Debug.Log("Bulunduğunuz seviye: " + currentLevel + "ve puanınız:" + levelScores[currentLevel]);
+        }
+        else
+        {
+            First_Level_Score.text = "Skor: " + levelScores[0] ;
+            Second_Level_Score.text = "Skor: " + levelScores[1] ;
+            Third_Level_Score.text = "Skor: " + levelScores[2] ;
+
+            // Debug.Log("Index 1 skoru"+ levelScores[0]);
+            // Debug.Log("Index 2 skoru"+ levelScores[1]);
+            // Debug.Log("Index 3 skoru"+ levelScores[2]);
+            // Debug.Log("Index 4 skoru"+ levelScores[3]);
         }
     }
 
