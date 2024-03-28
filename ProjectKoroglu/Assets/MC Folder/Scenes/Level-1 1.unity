@@ -72723,6 +72723,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1252854139092438801, guid: 1e89b4ebdd996984c80459053a0149fc, type: 3}
+      propertyPath: HealthBar
+      value: 
+      objectReference: {fileID: 275791585}
+    - target: {fileID: 1252854139092438801, guid: 1e89b4ebdd996984c80459053a0149fc, type: 3}
+      propertyPath: loadLevel
+      value: 
+      objectReference: {fileID: 1774893628}
+    - target: {fileID: 1252854139092438801, guid: 1e89b4ebdd996984c80459053a0149fc, type: 3}
+      propertyPath: passLevel
+      value: 
+      objectReference: {fileID: 115258974}
+    - target: {fileID: 1252854139092438801, guid: 1e89b4ebdd996984c80459053a0149fc, type: 3}
+      propertyPath: audioPlayer
+      value: 
+      objectReference: {fileID: 1051599461}
+    - target: {fileID: 1252854139092438801, guid: 1e89b4ebdd996984c80459053a0149fc, type: 3}
+      propertyPath: DeathMessage
+      value: 
+      objectReference: {fileID: 1763112949}
     - target: {fileID: 3411825264927009704, guid: 1e89b4ebdd996984c80459053a0149fc, type: 3}
       propertyPath: m_Name
       value: "K\xF6ro\u011Flu"
